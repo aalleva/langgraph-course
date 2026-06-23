@@ -43,7 +43,7 @@ def main():
     #print(res["messages"][LAST].content)
     #print()
 
-    print("Test 3: Weather is London and triple it")
+    print("Test 3: Weather in London and triple it")
     res = app.invoke({"messages": [HumanMessage(content="What is the celsius temperature today in London? List it and triple it")]})
     print(res["messages"][LAST].content)
     print()
